@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+#left {
+	background-color: #242836;
+	color: #EFF1E9;
+}
