@@ -1,0 +1,148 @@
+main {
+	width: 1000px;
+	height: 600px;
+	margin: auto;
+}
+
+.logo {
+	width: 35px;
+	height: 35px;
+	padding-right: 20px;
+	align-items: left;
+	position: absolute;
+}
+
+.menu a {
+	font-size: 10pt;
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	color: #666666;
+	margin: 0;
+	position: relative;
+	top: 0px;
+	left: 920px;
+	text-decoration: none;
+	padding: 20px;
+}
+
+#name-header {
+	font-size: 135pt;
+	font-family: rift, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #89E6EA;
+	transform: scale(1,1.2);
+	margin: 0;
+	padding: 1px;
+	line-height: 185px;
+	position: absolute;
+}
+
+#index-rectangle {
+	width: 1000px;
+	height: 250px;
+	background: #89E6EA;
+	position: relative;
+	top: 205px;
+}
+
+#contact-rectangle {
+	width: 1000px;
+	height: 250px;
+	background: #89E6EA;
+	position: relative;
+	top: 165px;
+}
+
+#phone {
+	width: 285px;
+	height: 540px;
+	padding: 10px 0px 10px 0px;
+	margin: 0px;
+	position: absolute;
+	top: 60px;
+	left: 180px;
+}
+
+#email {
+	width: 285px;
+	height: 540px;
+	padding: 10px 0px 10px 0px;
+	margin: 0px;
+	position: relative;
+	top: -240px;
+	left: 358px;
+}
+
+#home {
+	width: 285px;
+	height: 540px;
+	padding: 10px 0px 10px 0px;
+	margin: 0px;
+	position: relative;
+	top: -240px;
+	left: 385px;
+}
+
+#face {
+	width: 455px;
+	height: 570px;
+	position: relative;
+	left: 270px;
+	top: -225px;
+}
+
+#phone-txt {
+	font-size: 72pt;
+	font-family: rift, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #89E6EA;
+	transform: scale(1,1.2);
+	margin: 0;
+	line-height: 90px;
+	position: relative;
+	top: -455px;
+	left: 50px;
+}
+
+#email-txt {
+	font-size: 70pt;
+	font-family: rift, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #89E6EA;
+	transform: scale(1,1.2);
+	margin: 0;
+	line-height: 90px;
+	position: relative;
+	top: -735px;
+	left: 360px;
+}
+
+#home-txt {
+	font-size: 70pt;
+	font-family: rift, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #89E6EA;
+	transform: scale(1,1.2);
+	margin: 0;
+	line-height: 90px;
+	position: relative;
+	top: -900px;
+	left: 680px;
+}
+
+#catchphrase {
+	font-size: 55pt;
+	font-family: rift, sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	color: #89E6EA;
+	margin: 0;
+	position: relative;
+	top: -350px;
+	letter-spacing: 2.85px;
+}
