@@ -1,0 +1,78 @@
+main {
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.logo {
+	width: 35px;
+	padding-right: 20px;
+	float: left;
+}
+
+nav a {
+	font-size: 10pt;
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	color: #666666;
+	margin: 0;
+	padding: 0px 20px 0px 20px;
+	display: block;
+	float: right;
+	text-decoration: none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#left {
+	float: left;
+	width: 50%;
+	padding-top: 25px;
+}
+
+#left h1 {
+	font-size: 11.25em;
+	font-family: rift, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #89E6EA;
+	transform: scale(1,1.2);
+	margin: 0 auto;
+	line-height: 150px;
+}
+
+#left h2 {
+	font-size: 4.55em;
+	font-family: rift, sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	color: #89E6EA;
+	margin: 75px 0px 0px 0px;
+	letter-spacing: 3px;
+}
+
+#right {
+	float: right;
+	width: 50%;
+	padding-top: 25px;
+}
+
+#right img {
+	height: 575px;
+}
+
+p {
+	font-size: 13pt;
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	color: #666666;
+}
