@@ -1,25 +1,32 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+}
+nav {
+	float:right;
+}
 main {
 	width: 1000px;
 	margin: 0 auto;
 	text-align: center;
+	position: relative;
+	height: 100vh;
 }
 
 .logo {
-	width: 35px;
+	width: 5em;
 	padding-right: 20px;
 	float: left;
 }
 
 nav a {
-	font-size: 10pt;
+	font-size: 1em;
 	font-family: proxima-nova, sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	color: #666666;
 	margin: 0;
 	padding: 0px 20px 0px 20px;
-	display: block;
-	float: right;
+	display: inline-block;
 	text-decoration: none;
 }
 
@@ -39,26 +46,32 @@ nav a {
 	font-family: rift, sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	color: #89E6EA;
+	color: #fff;
 	transform: scale(1,1.25);
-	margin: -10px auto;
 	position: absolute;
+	top: 16%;
+	z-index: 1;
 }
 
 #index-rectangle {
 	width: 1000px;
 	height: 250px;
 	background: #89E6EA;
-	position: relative;
-	top: 210px;
+	position: absolute;
+	top: 40%;
+	5: -1
+	z-index:;
+	z-index: -1;
 }
 
 #face {
 	height: 560px;
-	position: relative;
+	position: absolute;
 	display: block;
-	left: 280px;
-	top: -210px;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 2;
+	left: 50%;
 }
 
 #catchphrase {
@@ -68,9 +81,10 @@ nav a {
 	font-weight: 800;
 	color: #89E6EA;
 	margin: 0;
-	position: relative;
-	top: -340px;
+	position: absolute;
 	letter-spacing: 2.85px;
+	bottom: 0;
+	z-index: 3;
 }
 
 /*contact style*/
