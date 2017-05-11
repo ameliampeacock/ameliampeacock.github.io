@@ -26,6 +26,7 @@ nav a {
 	font-style: normal;
 	font-weight: 300;
 	color: #666666;
+	letter-spacing: .03em;
 	margin: 0;
 	padding: 10px 20px 0px 20px;
 	text-decoration: none;
@@ -57,12 +58,12 @@ nav {
 	transform: scale(1,1.25);
 	margin: 0;
 	position: absolute;
-	top: 5%;
+	bottom: 62%;
 	left: 10%;
 	z-index: 1;
 }
 
-#index-rectangle {
+#rectangle {
 	width: 80%;
 	height: 35%;
 	background: #89E6EA;
@@ -77,7 +78,7 @@ nav {
 	position: absolute;
 	display: block;
 	bottom: 0%;
-	left: 31%;
+	left: 33%;
 	z-index: 3;
 }
 
@@ -96,145 +97,165 @@ nav {
 }
 
 /*contact style*/
-#contact-rectangle {
-	width: 1000px;
-	height: 250px;
-	background: #89E6EA;
-	position: relative;
-	top: 165px;
+
+#phone, #email, #home {
+	height: 34em;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 9%;
+	display: inline;
+	z-index: 5;
+}
+
+#home img, #email img, #phone img {
+	height: 100%;
+}
+
+#phone-txt, #email-txt, #home-txt {
+	font-size: 68pt;
+	font-family: rift, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #89E6EA;
+	transform: scale(1,1.2);
+	text-align: left;
+	margin: 0;
+	line-height: 90px;
+	position: absolute;
+	bottom: 10%;
+	z-index: 6;
 }
 
 #phone {
-	width: 285px;
-	height: 540px;
-	padding: 10px 0px 10px 0px;
-	margin: 0px;
-	position: absolute;
-	top: 60px;
-	left: 180px;
+	left: 13.5%;
 }
 
 #email {
-	width: 285px;
-	height: 540px;
-	padding: 10px 0px 10px 0px;
-	margin: 0px;
-	position: relative;
-	top: -240px;
-	left: 358px;
+	left: 39%;
 }
 
 #home {
-	width: 285px;
-	height: 540px;
-	padding: 10px 0px 10px 0px;
-	margin: 0px;
-	position: relative;
-	top: -240px;
-	left: 385px;
+	left: 64%;
 }
 
 #phone-txt {
-	font-size: 72pt;
-	font-family: rift, sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	color: #89E6EA;
-	transform: scale(1,1.2);
-	margin: 0;
-	line-height: 90px;
-	position: relative;
-	top: -455px;
-	left: 50px;
+	left: 14%;
 }
 
 #email-txt {
-	font-size: 70pt;
-	font-family: rift, sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	color: #89E6EA;
-	transform: scale(1,1.2);
-	margin: 0;
-	line-height: 90px;
-	position: relative;
-	top: -735px;
-	left: 360px;
+	left: 39.5%;
 }
 
 #home-txt {
-	font-size: 70pt;
-	font-family: rift, sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	color: #89E6EA;
-	transform: scale(1,1.2);
-	margin: 0;
-	line-height: 90px;
-	position: relative;
-	top: -900px;
-	left: 680px;
+	left: 64.5%;
 }
 
 /*about style*/
-#about-header {
-	font-size: 70pt;
-	font-family: rift, sans-serif;
-	font-style: normal;
-	font-weight: 300;
-	color: white;
-	transform: scale(1,1.2);
-	margin: 0;
-	padding: 0;
-	line-height: 185px;
-	position: absolute;
-	top: 55px;
-	left: 290px;
-	letter-spacing: 5px;
-}
 
 #about-rectangle {
-	width: 1000px;
-	height: 250px;
+	width: 80%;
+	height: 35%;
 	background: #89E6EA;
-	position: relative;
-	top: 30px;
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	z-index: 2;
+}
+
+#about-header {
+	font-size: 9vw;
+	font-family: rift, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: white;
+	transform: scale(1,1.25);
+	margin: 0;
+	position: absolute;
+	bottom: 63%;
+	left: 22%;
+	z-index: 5;
 }
 
 #about-face {
-	width: 240px;
-	height: 520px;
-	position: relative;
-	top: -215px;
+	width: 17vw;
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	z-index: 5;
 }
 
 .about-txt {
-	font-size: 14pt;
+	font-size: 13pt;
 	font-family: proxima-nova, sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	color: #666666;
+	letter-spacing: .03em;
 	margin: 0px 145px 20px 145px;
 	line-height: 26px;
-	position: relative;
-	top: -610px;
-	left: 115px;
+	position: absolute;
+	text-align: left;
+	top: 40%;
+	left: 17%;
+	z-index: 5
 }
 
 /*writing style*/
 
-section img {
-	width: 100%;
+.writing-cards {
+	width: 80%;
+	background-color: #89E6EA;
+	height: 10.4em;
+	display: block;
+	text-align: left;
+	padding: 20px 30px 20px 30px;
+	margin: 80px 0px 0px 0px;
 	position: absolute;
-	float: left;
+	z-index: 3;
+	left: 10%;
 }
 
-section h1 {
-	font-size: 5em;
+.writing-cards h2 {
+	font-size: 2.5em;
 	font-family: rift, sans-serif;
 	font-style: normal;
-	font-weight: 400;
-	color: #89E6EA;
+	font-weight: 300;
+	color: white;
 	transform: scale(1,1.25);
+	letter-spacing: .1em;
+	padding: .1em;
+}
+
+.writing-cards p {
+	font-size: 13pt;
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	color: #666666;
+	padding: .1em;
+	letter-spacing: .03em;
+}
+
+.container {
 	position: relative;
+	width: 100%;
+}
+
+.container:hover .overlay {
+	opacity: 1;
+}
+
+.overlay {
+	position: absolute;
+	margin: 84px 0px 0px 0px;
+	z-index: 4;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+}
+
+.overlay img {
+	width: 80%;
 }
