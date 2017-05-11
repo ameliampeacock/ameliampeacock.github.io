@@ -1,20 +1,22 @@
 * { margin:0; padding:0; box-sizing:border-box; }
-body {
-}
-nav {
-	float:right;
-}
+
 main {
-	width: 1000px;
-	margin: 0 auto;
-	text-align: center;
-	position: relative;
+	width: 100vw;
 	height: 100vh;
+	margin: 0 auto;
+	position: relative;
+	align-items: center;
+	text-align: center;
+
+}
+
+header {
+	z-index: 5;
 }
 
 .logo {
-	width: 5em;
-	padding-right: 20px;
+	width: 4em;
+	padding: 10px;
 	float: left;
 }
 
@@ -25,9 +27,13 @@ nav a {
 	font-weight: 300;
 	color: #666666;
 	margin: 0;
-	padding: 0px 20px 0px 20px;
-	display: inline-block;
+	padding: 10px 20px 0px 20px;
 	text-decoration: none;
+	display: inline-block;
+}
+
+nav {
+	float: right;
 }
 
 .clearfix:after {
@@ -42,49 +48,51 @@ nav a {
 /*index style*/
 
 #name-header {
-	font-size: 11.25em;
+	font-size: 14vw;
 	font-family: rift, sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	color: #fff;
+	letter-spacing: 2px;
+	color: #89E6EA;
 	transform: scale(1,1.25);
+	margin: 0;
 	position: absolute;
-	top: 16%;
+	top: 5%;
+	left: 10%;
 	z-index: 1;
 }
 
 #index-rectangle {
-	width: 1000px;
-	height: 250px;
+	width: 80%;
+	height: 35%;
 	background: #89E6EA;
 	position: absolute;
-	top: 40%;
-	5: -1
-	z-index:;
-	z-index: -1;
+	top: 41%;
+	left: 10%;
+	z-index: 2;
 }
 
 #face {
-	height: 560px;
+	width: 33.5vw;
 	position: absolute;
 	display: block;
-	top: 50%;
-	transform: translate(-50%,-50%);
-	z-index: 2;
-	left: 50%;
+	bottom: 0%;
+	left: 31%;
+	z-index: 3;
 }
 
 #catchphrase {
-	font-size: 4.55em;
+	font-size: 5.75vw;
 	font-family: rift, sans-serif;
 	font-style: normal;
 	font-weight: 800;
 	color: #89E6EA;
 	margin: 0;
+	letter-spacing: 3.5px;
 	position: absolute;
-	letter-spacing: 2.85px;
-	bottom: 0;
-	z-index: 3;
+	bottom: 5%;
+	left: 10%;
+	z-index: 4;
 }
 
 /*contact style*/
