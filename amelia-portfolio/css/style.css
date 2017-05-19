@@ -226,6 +226,7 @@ nav {
 	transform: scale(1,1.25);
 	letter-spacing: .1em;
 	padding: .1em;
+	z-index: 5;
 }
 
 .writing-cards p {
@@ -236,6 +237,7 @@ nav {
 	color: #666666;
 	padding: .1em;
 	letter-spacing: .03em;
+	z-index: 5;
 }
 
 .container {
