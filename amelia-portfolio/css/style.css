@@ -11,6 +11,7 @@ main {
 }
 
 header {
+	position: relative;
 	z-index: 5;
 }
 
@@ -117,7 +118,7 @@ nav {
 	font-family: rift, sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	color: #89E6EA;
+	color: #ff9fba;
 	transform: scale(1,1.2);
 	text-align: left;
 	margin: 0;
@@ -158,7 +159,7 @@ nav {
 	height: 35%;
 	background: #89E6EA;
 	position: absolute;
-	top: 15%;
+	top: 11%;
 	left: 10%;
 	z-index: 2;
 }
@@ -173,7 +174,7 @@ nav {
 	transform: scale(1,1.25);
 	margin: 0;
 	position: absolute;
-	bottom: 63%;
+	top: 12%;
 	left: 22%;
 	z-index: 5;
 }
@@ -181,7 +182,7 @@ nav {
 #about-face {
 	width: 17vw;
 	position: absolute;
-	top: 15%;
+	top: 11%;
 	left: 10%;
 	z-index: 5;
 }
@@ -193,13 +194,25 @@ nav {
 	font-weight: 300;
 	color: #666666;
 	letter-spacing: .03em;
-	margin: 0px 145px 20px 145px;
+	margin: 0px 145px 20px 150px;
 	line-height: 26px;
 	position: absolute;
 	text-align: left;
-	top: 40%;
+	top: 36%;
 	left: 17%;
 	z-index: 5
+}
+
+.social img {
+	height: 5.5vh;
+	margin: 0em 4em 0em 4em;
+}
+
+.social {
+	width: 100%;
+	align-items: center;
+	position: absolute;
+	top: 91.5%;
 }
 
 /*writing style*/
@@ -230,6 +243,66 @@ nav {
 }
 
 .writing-cards p {
+	font-size: 13pt;
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	color: #666666;
+	padding: .1em;
+	letter-spacing: .03em;
+	z-index: 5;
+}
+
+.container {
+	position: relative;
+	width: 100%;
+}
+
+.container:hover .overlay {
+	opacity: 1;
+}
+
+.overlay {
+	position: absolute;
+	margin: 84px 0px 0px 0px;
+	z-index: 4;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+}
+
+.overlay img {
+	width: 80%;
+}
+
+/*design style*/
+
+.design-cards {
+	width: 80%;
+	background-color: #ff9fba;
+	height: 10.4em;
+	display: block;
+	text-align: left;
+	padding: 20px 30px 20px 30px;
+	margin: 80px 0px 0px 0px;
+	position: absolute;
+	z-index: 3;
+	left: 10%;
+}
+
+.design-cards h2 {
+	font-size: 2.5em;
+	font-family: rift, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	color: white;
+	transform: scale(1,1.25);
+	letter-spacing: .1em;
+	padding: .1em;
+	z-index: 5;
+}
+
+.design-cards p {
 	font-size: 13pt;
 	font-family: proxima-nova, sans-serif;
 	font-style: normal;
