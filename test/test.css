@@ -1,0 +1,33 @@
+body {
+	font-size: 14pt;
+}
+
+div {
+	width: 50%;
+	margin: 0 auto;
+}
+
+img {
+	height: 2em;
+	padding: 2em;
+}
+
+#linkedin:hover {
+	content: url('linkedin-fill.png');
+}
+
+#facebook:hover {
+	content: url('facebook-fill.png');
+}
+
+#tumblr:hover {
+	content: url('tumblr-fill.png');
+}
+
+#instagram:hover {
+	content: url('instagram-fill.png');
+}
+
+#twitter:hover {
+	content: url('twitter-fill.png');
+}

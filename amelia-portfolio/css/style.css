@@ -17,7 +17,7 @@ header {
 }
 
 .logo {
-	width: 4em;
+	height: 4em;
 	padding: .8em;
 	float: left;
 }
@@ -33,6 +33,10 @@ nav a {
 	padding: 1em 1.8em 0em 1.8em;
 	text-decoration: none;
 	display: inline-block;
+}
+
+nav a:hover {
+	color: #ff9fba;
 }
 
 nav {
@@ -210,10 +214,28 @@ nav {
 }
 
 .social {
-	width: 100%;
-	align-items: center;
-	position: absolute;
-	top: 91.5%;
+	position: relative;
+	top: 90%;
+}
+
+#linkedin:hover {
+	content: url('images/linkedin-fill.png');
+}
+
+#facebook:hover {
+	content: url('images/facebook-fill.png');
+}
+
+#tumblr:hover {
+	content: url('images/tumblr-fill.png');
+}
+
+#instagram:hover {
+	content: url('images/instagram-fill.png');
+}
+
+#twitter:hover {
+	content: url('images/twitter-fill.png');
 }
 
 /*writing style*/
