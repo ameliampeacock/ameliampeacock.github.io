@@ -301,6 +301,10 @@ nav {
 	z-index: 5;
 }
 
+.container a {
+	text-decoration: none;
+}
+
 /*design style*/
 
 .design-cards {
