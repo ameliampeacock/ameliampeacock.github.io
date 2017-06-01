@@ -1,0 +1,136 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+main {
+	width: 100vw;
+	height: 100vh;
+	margin: 0 auto;
+	align-items: center;
+	text-align: center;
+	font-size: 10pt;
+}
+
+header {
+	position: absolute;
+	z-index: 5;
+	top: 0;
+	width: 100%;
+}
+
+.logo {
+	height: 4em;
+	padding: .8em;
+	float: left;
+}
+
+nav a {
+	font-size: 1em;
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	color: #666666;
+	letter-spacing: .03em;
+	margin: 0 auto;
+	padding: 1em 1.8em 0em 1.8em;
+	text-decoration: none;
+	display: inline-block;
+}
+
+nav a:hover {
+	color: #ff9fba;
+}
+
+nav {
+	float: right;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+/*about style*/
+
+#about-rectangle {
+	width: 80%;
+	height: 35%;
+	background: #89E6EA;
+	position: absolute;
+	top: 11%;
+	left: 10%;
+	z-index: 2;
+}
+
+#about-header {
+	font-size: 9vw;
+	font-family: rift, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: white;
+	transform: scale(1,1.25);
+	margin: 0;
+	position: absolute;
+	top: 12%;
+	left: 22%;
+	z-index: 5;
+}
+
+#about-face {
+	width: 17vw;
+	position: absolute;
+	top: 11%;
+	left: 10%;
+	z-index: 5;
+}
+
+.about-txt {
+	font-size: 1.1em;
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	color: #666666;
+	letter-spacing: .03em;
+	margin: 0px 145px 20px 150px;
+	line-height: 26px;
+	position: absolute;
+	text-align: left;
+	top: 36%;
+	left: 17%;
+	z-index: 5
+}
+
+.social img {
+	height: 5.5vh;
+	margin: 0em 4em 0em 4em;
+}
+
+.social {
+	position: absolute;
+	top: 90%;
+	left: 17%;
+	z-index: 6;
+}
+
+#linkedin:hover {
+	content: url('images/linkedin-fill.png');
+}
+
+#facebook:hover {
+	content: url('images/facebook-fill.png');
+}
+
+#tumblr:hover {
+	content: url('images/tumblr-fill.png');
+}
+
+#instagram:hover {
+	content: url('images/instagram-fill.png');
+}
+
+#twitter:hover {
+	content: url('images/twitter-fill.png');
+}
