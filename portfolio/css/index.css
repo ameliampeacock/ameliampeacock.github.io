@@ -103,12 +103,14 @@
 	}
 
 	#face {
-		width: 26em;
+		width: 25em;
 	}
 
 	#rectangle {
 		width: 100%;
+		height: 30%
 		left: 0;
+		top: 45%;
 	}
 
 	#catchphrase {
