@@ -105,4 +105,13 @@
 	#face {
 		width: 28em;
 	}
+
+	#rectangle {
+		width: 100%;
+		left: 0;
+	}
+
+	#catchphrase {
+		font-size: 3em;
+	}
 }
