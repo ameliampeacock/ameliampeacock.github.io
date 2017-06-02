@@ -128,4 +128,8 @@ main {
 		margin-bottom: 1em;
 	}
 
+	body {
+		height: 100%;
+	}
+
 }
