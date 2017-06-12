@@ -29,12 +29,23 @@ h2 {
 	margin: 0 auto;
 }
 
+h3 {
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.2em;
+	line-height: .85em;
+	color: #666666;
+	display: inline;
+}
+
 p {
 	font-family: proxima-nova, sans-serif;
 	font-style: normal;
 	font-weight: 300;
-	font-size: 1.5em;
+	font-size: 1.45em;
 	color: #666666;
+	display: inline;
 }
 
 a {
@@ -60,6 +71,13 @@ li {
 	text-align: left;
 }
 
+.vline {
+	color: white;
+	display: inline;
+	font-size: 3em;
+	margin: 0em .1em 0 .1em;
+}
+
 header {
 	width: 100%;
 	position: absolute;
@@ -74,19 +92,12 @@ nav a {
 	font-family: proxima-nova, sans-serif;
 	font-style: normal;
 	font-weight: 300;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	text-decoration: none;
 	color: #666666;
 	margin: 0 auto;
 	padding: 1em 1em 0 1.5em;
 	display: inline-block;
-}
-
-.line {
-	width: 35px;
-	height: 5px;
-	background-color: #FF9FBA;
-	margin: 6px 0;
 }
 
 .logo {

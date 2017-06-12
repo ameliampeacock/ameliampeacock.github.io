@@ -1,41 +1,5 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
-a {
-	font-family: proxima-nova, sans-serif;
-	font-style: normal;
-	font-weight: 300;
-	font-size: 1em;
-	text-decoration: none;
-	color: #89E6EA;
-}
-
-a:hover {
-	color: #FF9FBA;
-}
-nav {
-	float: right;
-}
-
-nav a {
-	font-family: proxima-nova, sans-serif;
-	font-style: normal;
-	font-weight: 300;
-	font-size: 1.4em;
-	text-decoration: none;
-	color: #666666;
-	margin: 0 auto;
-	padding: 1em 1em 0 1.5em;
-	display: inline-block;
-}
-
-.logo {
-	height: 3.5em;
-	float: left;
-	display: inline-block;
-	margin: 1em 0 0 1em;
-}
-/*about style*/
-
 #about-rectangle {
 	width: 80%;
 	height: 35%;
@@ -75,14 +39,16 @@ nav a {
 }
 
 .social img {
-	height: 5.5vh;
+	height: 4em;
 	margin: 0em 4em 0em 4em;
 }
 
 .social {
 	position: absolute;
 	top: 90%;
-	left: 17%;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
 	z-index: 6;
 }
 
